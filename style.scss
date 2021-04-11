@@ -33,7 +33,7 @@ font-family: 'Rubik', sans-serif ,'Noto Sans JP';
 }
 
 @mixin mq-pc {
-  @media screen and (min-width: 1080px) {
+  @media screen and (min-width: 1024px) {
     @content;
   }
 }
@@ -52,10 +52,13 @@ font-family: 'Rubik', sans-serif ,'Noto Sans JP';
 
 .inner {
   margin: 0 auto;
-  padding: 60px 10px;
+  padding:0 10px;
 
   @include mq-tablet {
-    padding:  60px;
+    padding:0  56px;
+  }
+    @include mq-pc {
+    padding:0  24px;
   }
 }
 
@@ -70,7 +73,7 @@ h1,
 h2,
 h3,
 .title,
-.big, ul li a {
+ ul li a {
   font-family: 'Rubik', sans-serif ,'Noto Sans JP';
 }
 
@@ -79,9 +82,8 @@ h1 {
   line-height: 1.6;
 }
 
-h2 {
+h2,.title {
   text-align: center;
-//  margin-bottom: 40px;
   font-size: 2rem;
 }
 
@@ -95,7 +97,8 @@ li a,
 a,
 label {
   font-family: 'Noto Sans JP';
-  font-size: 1.6rem;
+  font-size: 1.2rem;
+  line-height: 1.4;
 }
 
 ul li a{
@@ -105,10 +108,6 @@ ul li a{
 .txt {
   margin-top: 8px;
   line-height: 1.2;
-}
-
-.big {
-  font-weight: 800;
 }
 
 //position
@@ -159,7 +158,6 @@ ul li a{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #e8bd18;
 }
 .logo{
   width: 51px;
@@ -167,12 +165,13 @@ ul li a{
 }
 // nav
 nav ul{
-  background-color: $sub;
   display: flex;
   li {
 padding-left: 32px;
     a{
+      letter-spacing: 1.6px;
       font-weight: 500;
+      font-size: 2rem;
       display: block;
       &:hover{
         opacity: 0.7;
@@ -180,12 +179,87 @@ padding-left: 32px;
     }
   }
 }
+.main-visual{
+  margin-bottom: 16px;
+  text-align: center;
+  .inner{
+    padding: 16px 10px;
+  }
+  p{
+line-height: 1.6;
+  }
+  img{width: 80px;
+  height: 80px;
+  margin-bottom: 14px;
+  border-radius: 50%;}
+  .title{margin-bottom: 16px;}
+  .hightlight{
+    padding: 4px;
+    letter-spacing: 0.9px;
+  }
+  a{
+    text-decoration: underline;
+    color: $link;
+  }
+}
+
+main{
+  text-align: center;
+}
+.contents{
+  position: relative;
+}
+.content{
+  margin-bottom: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  @include mq-tablet{
+    margin: 0 auto;
+    width: 656px;
+    justify-content: space-between;
+  }
+  @include mq-pc{
+    width: 976px;
+  }
+  .item{
+    width: 312px;
+    margin-bottom: 40px;
+  }
+  img{
+    margin-bottom: 16px;
+  }
+  .title{
+    font-weight: 500;
+  }
+}
+.cliant{
+  justify-content: space-around;
+}
+.title_ver{
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  opacity: 0.8;
+  .border{
+    width: 40px;
+    height: 0.5px;
+    margin-right: 8px;
+    background-color: $bl;
+  }
+  p{
+    font-size: 24px;
+    font-weight: 700;
+  }
+}
 
 .footer{
+  padding-top: 80px;
   &-upper{
     ul{
       width: 244px;
       margin: auto;
+      margin-bottom: 16px;
       display: flex;
       justify-content: space-around;
     }

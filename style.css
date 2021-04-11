@@ -57,11 +57,16 @@ body {
 
 .inner {
   margin: 0 auto;
-  padding: 60px 10px;
+  padding: 0 10px;
 }
 @media screen and (min-width: 768px) {
   .inner {
-    padding: 60px;
+    padding: 0  56px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .inner {
+    padding: 0  24px;
   }
 }
 
@@ -75,7 +80,7 @@ h1,
 h2,
 h3,
 .title,
-.big, ul li a {
+ul li a {
   font-family: 'Rubik', sans-serif ,'Noto Sans JP';
 }
 
@@ -84,7 +89,7 @@ h1 {
   line-height: 1.6;
 }
 
-h2 {
+h2, .title {
   text-align: center;
   font-size: 2rem;
 }
@@ -99,7 +104,8 @@ li a,
 a,
 label {
   font-family: 'Noto Sans JP';
-  font-size: 1.6rem;
+  font-size: 1.2rem;
+  line-height: 1.4;
 }
 
 ul li a {
@@ -109,10 +115,6 @@ ul li a {
 .txt {
   margin-top: 8px;
   line-height: 1.2;
-}
-
-.big {
-  font-weight: 800;
 }
 
 .center {
@@ -159,7 +161,6 @@ ul li a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #e8bd18;
 }
 
 .logo {
@@ -168,23 +169,114 @@ ul li a {
 }
 
 nav ul {
-  background-color: #B0C81C;
   display: flex;
 }
 nav ul li {
   padding-left: 32px;
 }
 nav ul li a {
+  letter-spacing: 1.6px;
   font-weight: 500;
+  font-size: 2rem;
   display: block;
 }
 nav ul li a:hover {
   opacity: 0.7;
 }
 
+.main-visual {
+  margin-bottom: 16px;
+  text-align: center;
+}
+.main-visual .inner {
+  padding: 16px 10px;
+}
+.main-visual p {
+  line-height: 1.6;
+}
+.main-visual img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 14px;
+  border-radius: 50%;
+}
+.main-visual .title {
+  margin-bottom: 16px;
+}
+.main-visual .hightlight {
+  padding: 4px;
+  letter-spacing: 0.9px;
+}
+.main-visual a {
+  text-decoration: underline;
+  color: #1C8AC8;
+}
+
+main {
+  text-align: center;
+}
+
+.contents {
+  position: relative;
+}
+
+.content {
+  margin-bottom: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+@media screen and (min-width: 768px) {
+  .content {
+    margin: 0 auto;
+    width: 656px;
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .content {
+    width: 976px;
+  }
+}
+.content .item {
+  width: 312px;
+  margin-bottom: 40px;
+}
+.content img {
+  margin-bottom: 16px;
+}
+.content .title {
+  font-weight: 500;
+}
+
+.cliant {
+  justify-content: space-around;
+}
+
+.title_ver {
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  opacity: 0.8;
+}
+.title_ver .border {
+  width: 40px;
+  height: 0.5px;
+  margin-right: 8px;
+  background-color: #333;
+}
+.title_ver p {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.footer {
+  padding-top: 80px;
+}
 .footer-upper ul {
   width: 244px;
   margin: auto;
+  margin-bottom: 16px;
   display: flex;
   justify-content: space-around;
 }
