@@ -16,19 +16,6 @@ function add_stylesheet() {
 
 add_action('wp_enqueue_scripts', 'add_stylesheet');
 
-function register_script() {
-  wp_register_script('mainscript', get_template_directory_uri().'/js/main.js');
-  wp_register_script('contactscript', get_template_directory_uri().'/js/contact.js');
-}
-
-function add_script() {
-  register_script();
-  wp_enqueue_script('mainscript', '', array(), '1.0', true);
-  wp_enqueue_script('contactscript', '', array(), '1.0', true);
-}
-
-add_action('wp_print_scripts','add_script');
-
 //サイドバー
 
 if ( function_exists('register_sidebar') ) {
