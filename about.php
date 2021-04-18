@@ -6,7 +6,7 @@ Template Name:about
 <?php get_header(); ?>
     <main class="about">
       <div class="about_intro">
-        <img class="noma_img" src="img/noma.jpg" alt="">
+        <img class="noma_img" src="<?php echo get_template_directory_uri(); ?>/img/noma.jpg" alt="">
         <div class="text">
           <p>こんにちは！</p>
           <p>東京でUIデザイナーとして働いているのまと申します。</p>

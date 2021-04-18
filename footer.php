@@ -2,9 +2,9 @@
 <footer>
       <div class="footer-upper">
         <ul>
-          <li><a href="https://twitter.com/haribooooom"><img src="img/twitter.svg" alt="twitter"></a></li>
-          <li><a href="https://note.com/haribom"><img src="img/note.svg" alt="note"></a></li>
-          <li><a href="https://github.com/haribooooom"><img src="img/github.svg" alt="github"></a></li>
+          <li><a href="https://twitter.com/haribooooom"><img src="<?php echo get_template_directory_uri(); ?>/img/twitter.svg" alt="twitter"></a></li>
+          <li><a href="https://note.com/haribom"><img src="<?php echo get_template_directory_uri(); ?>/img/note.svg" alt="note"></a></li>
+          <li><a href="https://github.com/haribooooom"><img src="<?php echo get_template_directory_uri(); ?>/img/github.svg" alt="github"></a></li>
         </ul>
       </div>
       <div class="footer-lower">

@@ -25,9 +25,13 @@
 
   <link rel="icon" type="image/x-icon" href="img/site-logo.png">
   <link rel="apple-touch-icon-precomposed" href="img/site-logo.png" />
+  <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); echo '?' . filemtime( get_stylesheet_directory() . '/style.css'); ?>" type="text/css" />
 
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <?php wp_head(); ?>
 </head>
 
 <body>
@@ -36,12 +40,14 @@
     <header>
       <div class="header">
         <div class="logo">
-          <img src="img/site-logo.png" alt="site_logo">
+<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="">
+          </a>
         </div>
         <nav>
           <ul>
-            <li><a href="#">WORKS</a></li>
-            <li><a href="#">ABOUT</a></li>
+<li id="works"><a href="<?php echo get_permalink( get_page_by_title( 'works' )->ID ); ?>">WORKS</a></li>
+            <li id="about"><a href="<?php echo get_permalink( get_page_by_title( 'about' )->ID ); ?>">ABOUT</a></li>
           </ul>
         </nav>
       </div>
