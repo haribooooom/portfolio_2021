@@ -41,7 +41,7 @@
       <div class="header">
         <div class="logo">
 <a href="<?php echo esc_url( home_url( '/' ) ); ?>">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/site-logo.png" alt="">
           </a>
         </div>
         <nav>
