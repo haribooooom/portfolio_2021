@@ -1,11 +1,11 @@
 <?php get_header(); ?>
-<div class="blog-fv mb20">
+<!-- <div class="blog-fv mb20">
   <div class="box">
     <p class="big mb20">BLOG</p>
     <p class="">不定期更新のブログ記事です</p>
   </div>
   <div class="block"></div>
-</div>
+</div> -->
 
 <div class="container">
 <!--  <div class="inner">-->

@@ -174,6 +174,9 @@ ul li a{
   position: relative;
   background-color: $wh;
   z-index: 10;
+  @include mq-tablet{
+    margin-bottom: 80px;
+  }
 }
 // nav
 nav ul{
@@ -223,7 +226,7 @@ line-height: 1.6;
   @include mq-tablet{
     margin: 0 auto;
     width: 656px;
-    justify-content: space-between;
+    justify-content: space-around;
   }
   @include mq-pc{
     width: 976px;
@@ -239,7 +242,7 @@ line-height: 1.6;
     font-weight: 500;
   }
 }
-.cliant{
+.clinant{
   justify-content: space-around;
 }
 .title_ver{
@@ -353,19 +356,19 @@ line-height: 1.6;
 }
 
 .works{
+  .inner{
+    max-width: 768px;
+  }
   h2{
     margin-bottom: 32px;
   }
-  .items{
-    // display: flex;
-    // flex-wrap: wrap;
-  }
-  .item{
-    img{
-      width: 100%;
-    }
+.item{
     text-align: center;
     img{
+      margin: 0 auto;
+      // width: 50%;
+      @include mq-pc{
+      }
       margin-bottom: 16px;
     }
 margin-bottom: 40px;

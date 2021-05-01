@@ -178,6 +178,11 @@ ul li a {
   background-color: #fff;
   z-index: 10;
 }
+@media screen and (min-width: 768px) {
+  .header {
+    margin-bottom: 80px;
+  }
+}
 
 nav ul {
   display: flex;
@@ -231,7 +236,7 @@ nav ul li a:hover {
   .content {
     margin: 0 auto;
     width: 656px;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -250,7 +255,7 @@ nav ul li a:hover {
   font-weight: 500;
 }
 
-.cliant {
+.clinant {
   justify-content: space-around;
 }
 
@@ -364,6 +369,9 @@ nav ul li a:hover {
   text-align: center;
 }
 
+.works .inner {
+  max-width: 768px;
+}
 .works h2 {
   margin-bottom: 32px;
 }
@@ -372,9 +380,7 @@ nav ul li a:hover {
   margin-bottom: 40px;
 }
 .works .item img {
-  width: 100%;
-}
-.works .item img {
+  margin: 0 auto;
   margin-bottom: 16px;
 }
 

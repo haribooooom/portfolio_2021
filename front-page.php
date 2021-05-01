@@ -29,17 +29,12 @@
           </div>
           <div class="cliant content">
             <div class="item">
-              <a href="#">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/312x222.png" alt="">
-                <p class="title">Banner</p>
+              <a href="<?php echo get_permalink( get_page_by_title( 'caisuke' )->ID ); ?>">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/caisuke-ec.png" alt="">
+                <p class="title">Caisuke</p>
               </a>
             </div>
-            <div class="item">
-              <a href="#">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/312x222.png" alt="">
-                <p class="title">Fax DM</p>
-              </a>
-            </div>
+
           </div>
           <div class="title_ver">
             <div class="border"></div>
