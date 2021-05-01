@@ -42,26 +42,26 @@
           </div>
           <div class="original content">
             <div class="item">
-              <a href="#">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/312x222.png" alt="">
+              <a href="<?php echo get_permalink( get_page_by_title( 'app' )->ID ); ?>">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/rakuvege-ec.png" alt="">
                 <p class="title">App UI</p>
               </a>
             </div>
             <div class="item">
-              <a href="#">
+              <a href="<?php echo get_permalink( get_page_by_title( 'web' )->ID ); ?>">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/312x222.png" alt="">
                 <p class="title">Web Design</p>
               </a>
             </div>
             <div class="item">
-              <a href="#">
+              <a href="<?php echo get_permalink( get_page_by_title( 'banner' )->ID ); ?>">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/312x222.png" alt="">
                 <p class="title">Banner</p>
               </a>
             </div>
             <div class="item">
-              <a href="#">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/312x222.png" alt="">
+              <a href="<?php echo get_permalink( get_page_by_title( 'photoshop' )->ID ); ?>">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/photoshop-ec.png" alt="">
                 <p class="title">Photoshop practice</p>
               </a>
             </div>

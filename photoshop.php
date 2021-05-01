@@ -1,13 +1,13 @@
 <?php
 /*
-Template Name:works
+Template Name:photoshop
 */
 ?>
 <?php get_header(); ?>
 
-    <main class="works">
+    <main class="works photoshop">
       <div class="inner">
-        <h2>Works</h2>
+        <h2>photoshop</h2>
         <div class="items-wrap">
         <div class="items banner">
           <h3>Cliant</h3>

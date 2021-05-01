@@ -1,13 +1,13 @@
 <?php
 /*
-Template Name:works
+Template Name:app
 */
 ?>
 <?php get_header(); ?>
 
-    <main class="works">
+    <main class="works appUi">
       <div class="inner">
-        <h2>Works</h2>
+        <h2>App UI</h2>
         <div class="items-wrap">
         <div class="items banner">
           <h3>Cliant</h3>

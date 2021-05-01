@@ -1,13 +1,13 @@
 <?php
 /*
-Template Name:works
+Template Name:web
 */
 ?>
 <?php get_header(); ?>
 
-    <main class="works">
+    <main class="works webDesign">
       <div class="inner">
-        <h2>Works</h2>
+        <h2>Web Design</h2>
         <div class="items-wrap">
         <div class="items banner">
           <h3>Cliant</h3>
