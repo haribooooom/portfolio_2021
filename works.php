@@ -5,31 +5,29 @@ Template Name:works
 ?>
 <?php get_header(); ?>
 
-    <main class="works">
-      <div class="inner">
-        <h2>Works</h2>
-        <div class="items-wrap">
-        <div class="items banner">
-          <h3>Cliant</h3>
-          <div class="item">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/312x222.png" alt="">
-          
+  <main class="work">
+<h2>WORKS</h2>
+      <div class="portfolio mb80">
+        <div class="contents">
+          <div class="content">
+            <a href="./works/work1.html"><img src=" <?php echo get_template_directory_uri(); ?>/img/pj1.png" alt=""></a>
           </div>
-          <div class="item">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/312x222.png" alt="">
-            
+          <div class="content">
+            <a href="./works/work1.html"><img src=" <?php echo get_template_directory_uri(); ?>/img/pj1.png" alt=""></a>
           </div>
-        </div>
-                <div class="items faxdm">
-                  <h3>original</h3>
-          <div class="item">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/312x222.png" alt="">
+          <div class="content">
+            <a href="./works/work1.html"><img src=" <?php echo get_template_directory_uri(); ?>/img/pj1.png" alt=""></a>
           </div>
-          <div class="item">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/312x222.png" alt="">
+          <div class="content">
+            <a href="./works/work1.html"><img src=" <?php echo get_template_directory_uri(); ?>/img/pj1.png" alt=""></a>
+          </div>
+          <div class="content">
+            <a href="./works/work1.html"><img src=" <?php echo get_template_directory_uri(); ?>/img/pj1.png" alt=""></a>
+          </div>
+          <div class="content">
+            <a href="./works/work1.html"><img src=" <?php echo get_template_directory_uri(); ?>/img/pj1.png" alt=""></a>
           </div>
         </div>
       </div>
-      </div>
-    </main>
+  </main>
 <?php get_footer(); ?>

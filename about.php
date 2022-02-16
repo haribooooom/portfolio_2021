@@ -4,36 +4,103 @@ Template Name:about
 */
 ?>
 <?php get_header(); ?>
-    <main class="about">
-      <div class="about_intro">
-        <img class="noma_img" src="<?php echo get_template_directory_uri(); ?>/img/noma.jpg" alt="">
-        <div class="text">
-          <p>こんにちは！</p>
-          <p>東京でUIデザイナーとして働いているのまと申します。</p>
-          <p>大学時代は地域活性化に関する学生団体や研究会で実地調査や企画の実行等をしていました。</p>
-          <p>現地での活動を通じ、”いち地域”だけでなく、よりひろく変化を起こしていくにはWebの力を使い発信・モノを作っていくことも大切だと気がつきました。</p>
-          <p>デザインを選んだのは良くも悪くも自分が作ったものに対する反応が得やすいからです。</p>
-          <p>デザインは人の心を動かし、行動も変化させます。</p>
-          <p>それをより良い方向に、そして人や企業、社会が抱える課題を解決しくことができると信じています。</p>
+
+  <main class="about">
+  <div class="inner">
+    <div class="intro mb80">
+      <h2 class="">ABOUT</h2>
+      <div class="box">
+        <div class="text wh">
+          <p>野﨑 まどか | Madoka Nozaki</p>
+          <p>*</p>
+          <p>1995年東京都出身。法政大学卒業後、クラウドワークス株式会社にてUXデザイナーインターンを開始。</p>
+          <p>ユーザーインタビューや分析等の業務を行う。</p>
+          <p>その後自身でも制作を行いたかったこともあり、Web制作の職業訓練校に入学。</p>
+          <p>その後カイテク株式会社の制作の業務委託を経て、一社挟み受託制作を行う株式会社INDIGへ入社。
+          </p>
+          <p>現在はWebサービスやコーポレートデザイン・LP・バナー作成などを担当。</p>
         </div>
       </div>
-      <div class="about_contents">
-        <div class="about_content">
-          <h2>skils / tools</h2>
-          <h3>Design</h3>
-          <p>Figma / Illustrator / Photoshop / XD / DreamWeaver</p>
-          <h3>Cording</h3>
-          <p>HTML5 / CSS3 / jQuery / Scss / WordPress</p>
-          <h3>Other</h3>
-          <p>Git</p>
-        </div>
-        <div class="about_content">
-          <h2>Interest / Favorite</h2>
-          <h3>App Product</h3>
-          <p>Pinterest / Clue / GRAVITY / みんちゃれ</p>
-          <h3>Outdoor</h3>
-          <p>walking / trip</p>
-        </div>
+    </div>
+  </div>
+<div class="inner">
+  <div class="career mb80">
+    <h2>Career</h2>
+    <div class="box">
+      <div class="text wh">
+        <div class="job">
+        <h3>2021年 5月 ~ 現在 株式会社INDIG（Web / UI デザイナー）: 正社員</h3>
+        <p>さまざまなジャンルのサイト・サービス等に触れ必要となる情報設計や要件をインプット・アウトプットすることを目指しています。また、規模の小さい会社であることから仕組みが整っておらずプロジェクトの進め方の提案をしたり、必要に応じて他のデザイナーや職種の方・クライアント様にFigmaの使い方などをレクチャーすることも行なっています。</p>
       </div>
-    </main>
+        <div class="job">
+        <h3>2020年 10月 ~ 2021年 12月 カイテク株式会社（Webデザイナー）: 業務委託</h3>
+        <p>さまざまなSNSで使われるサービスのバナー・アイキャッチの作成、LPの改善提案・FAXDMのデザイン等行なっていました。さまざまな場所で表示されても同じ印象を与えられるようにすることや他の方でも編集可能にできるようコンポーネントを整えることを意識していました。</p>
+      </div>
+        <div class="job">
+        <h3>2021年 1月 ~ 2021年 4月 アラテン株式会社（Web / UI デザイナー）: 正社員</h3>
+        <p>自社の販促物（チラシ）等のデザインや、WordPressで作られた自社サイトの一部改善（HTML,CSS）、派遣先にてサービスサイトのWebデザイン等を行なっていました。</p>
+      </div>
+      <div class="job">
+      <h3>2018年 10月 ~ 2019年 10月 株式会社クラウドワークス（UXデザイナー）: インターン</h3>
+      <p>サービスをより多くの方に使っていただくため利用ユーザーや未利用ユーザーの方々の考えや行動を分析し、サービス改善していくことを目指しました。
+      分析のために地道に話通りに文字起こしをし、その後チームとKJ法にてグルーピング、構造化、文章化などしてプロジェクトを進行しました。</p>
+    </div>
+      <div class="school">
+        <h3>2019年 12月 ~ 2021年 6月 フェリカテクニカルアカデミー（Webサイト制作科）: 学生</h3>
+        <p>基本的なHTML・CSSやJavaScript、IllustratorやPhotoshopの技術を学びました。学校で学ぶ時間は限られているため、自宅などではこれらに加えて効率的にコーディングができるSaasや動的なサイトを実現するためのWordPressを扱うことができるよう勉強していました。</p>
+      </div>
+        <div class="school">
+        <h3>2014年 4月 ~ 2018年 9月 法政大学（人間環境学部）: 学生</h3>
+        <p>「持続可能な地域社会の創造」を学部テーマとする総合学部です。
+        人間と環境の共存、人間と人間の共生、実践知を大切にすることからこの学部を選びました。
+        自身は「まちづくり・都市農村交流」に関心を持ち、ゼミにて長野県飯山市に数回通い提案書を作成したり年間を通じて文献購読・ワークショップなど行なっていました。</p>
+      </div>
+      </div>
+      </div>
+  </div>
+  <div class="future mb80">
+    <h2>Future</h2>
+    <div class="box">
+      <div class="text wh">
+        <strong style="font-size:1.5rem;">一人一人が自分に必要な体験・知識を得られ、長く短い人生をより良く生きられる社会にしたい。
+        </strong>
+        <p>現在はデザイナーですが、ディレクション・マーケティングや教育（教える・伝えること）に興味があります。
+          これに向けていま特に頑張っていることは、以下の二つです。</p>
+        <ol>
+          <li>①Web業界やこれからより活躍できるよう、ITパスポートの学習をし知識をつけること（3月受験予定です）</li>
+          <li>②読書をして自分の世界を広げること</li>
+        </ol>
+        <p>これからも日々こつこつとやるべきことを積み重ねていきたいと思います。</p>
+      </div>
+    </div>
+  </div>
+  <div class="skil mb80">
+    <h2>Skil</h2>
+    <div class="box">
+      <div class="text wh">
+        <h3>Design tool</h3>
+        <p>Figma（メイン）、Illustrator、Photoshop、XD</p>
+        <h3>Cording <span style="font-size:1.2rem">（個人・知識レベル。勉強中です。）</span></h3>
+        <p>HTML5、CSS3、SCSS、jQuery(知識)、WordPress</p>
+        <h3>Other</h3>
+        <p>情報設計、ユーザーヒアリング、KJ法分析</p>
+      </div>
+    </div>
+  </div>
+  <div class="favorite mb80">
+    <h2>Favorite</h2>
+    <div class="box">
+      <div class="text wh">
+        <h3>ボードゲーム</h3>
+        <p>カタン、カルカソンヌ、コンタクトゲームのような道を作ったり戦略的に領土を拡大していく系のゲームが好み。</p>
+        <h3>Notion</h3>
+        <p>本、言葉の定義、Todoリスト等ほぼNotionで管理。色々な活用方法がないか必要に応じて試してみることが好き。</p>
+        <h3>散歩</h3>
+        <p>気分転換と思考の整理ができるため、知らない街の産業や文化、地形をみながら散歩が好き。</p>
+      </div>
+    </div>
+  </div>
+</div>
+  </main>
+
 <?php get_footer(); ?>
