@@ -1,7 +1,7 @@
 <?php get_header(); ?>
   <main>
     <div class="inner">
-      <div class="intro mb80">
+      <div class="intro mb100">
         <h2 class="">Noma</h2>
         <div class="box">
           <div class="text ">
@@ -19,7 +19,7 @@
         </div>
       </div>
       </div>
-      <div class="portfolio mb80">
+      <div class="portfolio mb100">
         <div class="contents">
           <div class="content">
             <a href="<?php echo get_permalink( get_page_by_title( '/works/pj1' )->ID ); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/pj1.png" alt=""></a>
@@ -42,7 +42,7 @@
         </div>
       </div>
       <div class="inner">
-      <div class="future mb80">
+      <div class="future mb100">
         <h2>Future</h2>
         <div class="box">
           <div class="text">
@@ -58,7 +58,7 @@
           </div>
           </div>
           </div>
-                <div class="skil mb80">
+                <div class="skil mb100">
                   <h2>Skil</h2>
                   <div class="box">
                     <div class="text">
@@ -70,7 +70,7 @@
                       <p>情報設計、ユーザーヒアリング、KJ法分析</p>
                     </div>
                   </div>
-                </div><div class="favorite mb80">
+                </div><div class="favorite mb100">
                   <h2>Favorite</h2>
                   <div class="box">
                     <div class="text">

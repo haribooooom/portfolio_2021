@@ -9,7 +9,7 @@ Version: 0.1
 //@import 'css/reset.css';
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&family=Rubik:wght@300;400;500;700&display=swap");
 
-$wh: #fff;
+$wh: #f7f7f7;
 $bl: #333;
 $be: #f9f6f1;
 $sub: #b0c81c;
@@ -19,7 +19,8 @@ $border: 1px solid #aaa;
 
 body {
   margin: 0;
-  background: url(/img/bg.svg);
+  background-color: #f7f7f7;
+  // background: url(img/bg.svg);
   font-family: "Helvetica Neue", "Helvetica", "Hiragino Sans",
     "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
 }
@@ -127,9 +128,12 @@ header {
 .box {
   margin: 0 auto;
   display: flex;
-  padding: 3%;
+  padding: 4%;
   box-shadow: $shadow;
   background-color: $wh;
+  @include mq-pc {
+    padding: 24px 32px;
+  }
 }
 
 .text {
@@ -195,6 +199,7 @@ main.work {
     background-color: $wh;
     @include mq-pc {
       justify-content: left;
+      padding: 32px;
     }
   }
 }
@@ -224,5 +229,11 @@ main.work {
   @include mq-pc {
     width: calc(60% - 40px);
     min-height: 100vh;
+  }
+}
+.pagetop {
+  margin-left: 4%;
+  a {
+    color: $bl;
   }
 }
