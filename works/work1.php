@@ -17,7 +17,7 @@ Template Name:pj1
       </div>
         <div class="pj_box ">
           <div class="text">
-            <h3>    使用スキル</h3>
+            <h3>使用スキル</h3>
             <p>Figma</p>
       </div>
       </div>

@@ -21,14 +21,14 @@
     </div>
     <div class="portfolio mb100">
       <h2 class="">Portfolio</h2>
-      <div class="contents">
+     <div class="contents">
           <div class="content">
             <a href="<?php echo home_url(); ?>/works/pj1"><img src="<?php echo get_template_directory_uri(); ?>/img/pj1.png" alt=""></a>
           </div>
           <div class="content">
             <a href="<?php echo home_url(); ?>/works/pj2"><img src="<?php echo get_template_directory_uri(); ?>/img/pj2.png" alt=""></a>
           </div>
-          <div class="content">
+          <div class="content"> 
             <a href="<?php echo home_url(); ?>/works/pj3"><img src="<?php echo get_template_directory_uri(); ?>/img/pj3.png" alt=""></a>
           </div>
           <div class="content">
