@@ -31,9 +31,7 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <style>
-    body{
-      background:url(/img/bg.png) no-repeat center;
-    }
+
   </style>
   <?php wp_head(); ?>
 </head>
