@@ -6,38 +6,39 @@
         <div class="box">
           <div class="text ">
             <p>初めまして！</p>
-              <p>野﨑まどかと申します。</p>
+            <p>野﨑まどかと申します。</p>
             <p>1995年東京都生まれ。法政大学卒業後、クラウドワークス株式会社にてUXデザイナーインターンを開始。</p>
             <p>ユーザーインタビューや分析等の業務を行っていました。</p>
             <p>その後自身でも制作を行いたかったこともあり、
-            Web制作の職業訓練校に入学。</p>
-            <p>その後カイテク株式会社の制作の業務委託を経て、
-            一社挟み受託制作を行う株式会社INDIGへ入社しました。
-          </p>
+              Web制作の職業訓練校に入学。</p>
+              <p>その後カイテク株式会社の制作の業務委託を経て、
+                一社挟み受託制作を行う株式会社INDIGへ入社しました。
+              </p>
             <p>現在はtoC、toB向けのWebサービスやコーポレートデザイン、LP、バナー作成などを担当しています。</p>
           </div>
         </div>
       </div>
-      </div>
-      <div class="portfolio mb100">
-        <div class="contents">
+    </div>
+    <div class="portfolio mb100">
+      <h2 class="">Portfolio</h2>
+      <div class="contents">
           <div class="content">
-            <a href="<?php echo get_permalink( get_page_by_title( '/works/pj1' )->ID ); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/pj1.png" alt=""></a>
+            <a href="<?php echo home_url(); ?>/works/pj1"><img src="<?php echo get_template_directory_uri(); ?>/img/pj1.png" alt=""></a>
           </div>
           <div class="content">
-            <a href="<?php echo get_permalink( get_page_by_title( 'pj2' )->ID ); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/pj2.png" alt=""></a>
+            <a href="<?php echo home_url(); ?>/works/pj2"><img src="<?php echo get_template_directory_uri(); ?>/img/pj2.png" alt=""></a>
           </div>
           <div class="content">
-            <a href="<?php echo get_permalink( get_page_by_title( 'pj3' )->ID ); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/pj3.png" alt=""></a>
+            <a href="<?php echo home_url(); ?>/works/pj3"><img src="<?php echo get_template_directory_uri(); ?>/img/pj3.png" alt=""></a>
           </div>
           <div class="content">
-            <a href="<?php echo get_permalink( get_page_by_title( 'pj4' )->ID ); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/pj4.png" alt=""></a>
+            <a href="<?php echo home_url(); ?>/works/pj4"><img src="<?php echo get_template_directory_uri(); ?>/img/pj4.png" alt=""></a>
           </div>
           <!-- <div class="content">
-            <a href="<?php echo get_permalink( get_page_by_title( 'pj5' )->ID ); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/pj5.png" alt=""></a>
+            <a href="5"><img src="<?php echo get_template_directory_uri(); ?>/img/pj5.png" alt=""></a>
           </div>
           <div class="content">
-            <a href="<?php echo get_permalink( get_page_by_title( 'pj6' )->ID ); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/pj6.png" alt=""></a>
+            <a href="6"><img src="<?php echo get_template_directory_uri(); ?>/img/pj6.png" alt=""></a>
           </div> -->
         </div>
       </div>

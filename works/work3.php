@@ -8,7 +8,7 @@ Template Name:pj3
     <h2>サンティエジョブカレッジ - コーポレート</h2>
     <div class="wrap">
       <div class="block">
-        <img src="../img/pj3.png" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/pj3.png" alt="">
         <div class="pj_box ">
           <div class="text">
             <h3>制作期間</h3>

@@ -205,6 +205,12 @@ header {
   margin-bottom: 24px;
 }
 
+@media screen and (min-width: 1024px) {
+  .content {
+    width: calc((100% / 3) - 24px);
+  }
+}
+
 .content img {
   width: 100%;
 }

@@ -156,6 +156,9 @@ header {
 
 .content {
   margin-bottom: 24px;
+  @include mq-pc {
+    width: calc((100% / 3) - 24px);
+  }
   img {
     width: 100%;
     @include mq-pc {
